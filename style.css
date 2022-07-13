@@ -1,0 +1,289 @@
+/* 
+    Portfolio Layout
+    By Matheus Dominguez
+    
+    Contact:
+    
+    Instagram: @oidominguez ~ instagram.com/oidominguez
+    Github: oidominguez ~ github.com/oidominguez
+    Website: oidominguez.dev
+    
+    
+    Please do not withdraw credits.
+    
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body{
+    background-color: #1c1c1c;
+}
+
+*{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+header .container .alert{
+    width: 100%;
+    height: 60px;
+    background: #5b7fb77a;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 10px;
+    border-radius: 80px;
+}
+
+header .container .alert i{
+    font-size: 18px;
+}
+
+header .container p{
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+header .container .home{
+    padding-top: 60px;
+}
+
+header .container .home hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #2c2c2c;
+}
+
+header .container .home p{
+    color: #a5a5a5;
+}
+
+
+.me{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+.me .container h4{
+    font-size: 21px;
+    color: rgba(64,64,64,1);
+    text-transform: uppercase;
+}
+
+.me .container .list{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.me .container .list a .box{
+    width: 250px;
+    height: 100px;
+    background: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: .2s;
+    padding: 1rem;
+    box-shadow: inset 0px 0px 0px 3px #ffffff08;
+    border-radius: 7px;
+}
+
+.me .container .list a .box:hover{
+    box-shadow: inset 0px 0px 0px 3px #5b7fb77a;
+    transform: scale(1.05);
+}
+
+.me .container .list a .box h6{
+    font-size: 16px;
+}
+
+.me .container .list a .box p{
+    font-size: 12px;
+    color: #939393;
+    font-weight: 400;
+}
+
+
+
+
+.projects{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+.projects .container h4{
+    font-size: 21px;
+    color: rgba(64,64,64,1);
+    text-transform: uppercase;
+}
+
+.projects .container .list{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.projects .container .list a .box{
+    width: 300px;
+    height: 140px;
+    background: #2c2c2c;
+    display: flex;
+    transition: .2s;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    box-shadow: inset 0px 0px 0px 3px #ffffff08;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+
+.projects .container .list a .box:hover{
+    box-shadow: inset 0px 0px 0px 3px #5b7fb77a;
+    transform: scale(1.05);
+}
+
+.projects .container .list a .box .box-header h6{
+    font-size: 16px;
+}
+
+.projects .container .list a .box .box-header hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #0000001f;
+}
+
+.projects .container .list a .box p{
+    font-size: 12px;
+    color: #939393;
+    font-weight: 400;
+}
+
+
+
+
+
+.skills{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+.skills .container h4{
+    font-size: 21px;
+    color: rgba(64,64,64,1);
+    text-transform: uppercase;
+}
+
+.skills .container .list{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills .container .list .box{
+    width: 220px;
+    height: 80px;
+    background: #2c2c2c;
+    transition: .2s;
+    display: flex;
+    gap: 10px;
+    padding: 1rem;
+    box-shadow: inset 0px 0px 0px 3px #ffffff08;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.skills .container .list .box:hover{
+    box-shadow: inset 0px 0px 0px 3px #5b7fb77a;
+    transform: scale(1.05);
+}
+
+.skills .container .list .box h6{
+    font-size: 18px;
+    padding-left: 0.5rem;
+    
+}
+
+.skills .container .list .box img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer span{
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 95%;
+    }
+    .me .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+    .me .container .list{
+        justify-content: center;
+    }
+    .projects .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+    .projects .container .list{
+        justify-content: center;
+    }
+    .skills .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+    .skills .container .list{
+        justify-content: center;
+    }
+    
+}
